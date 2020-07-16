@@ -67,7 +67,7 @@ quick model, checkpointing, out-of-memory datasets, train/eval/monitor, distuibu
 tf.estimator.Estimator.
 DNNLinearCombinedClassifier, workhouse of machine learning
 
-# Predicting real estate house value
+# Tensorflow Estimator: Predicting real estate house value
 "features": square footage
 
 ```python
@@ -97,3 +97,11 @@ model = tf.estimator.DNNRegressor(featcols, hidden_units[3,2])
 dense neural networks
 
 train, validation, test, ...
+
+# Tensorflow: Basics
+```python
+a = tf.constant([5, 3, 8])
+b = tf.constant([3, -1, 2])
+c = tf.add(a,b)
+print(c)
+```

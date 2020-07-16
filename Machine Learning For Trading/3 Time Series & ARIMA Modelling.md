@@ -14,7 +14,7 @@ stationize: removing trends, seasonal effect, cyclical(one-year horizon at least
 Why stationarity matters?
 1 a model that mean and sd will be used(consistent mean/sd over time)
 
-## AT - Auto Regressive
+## AR - Auto Regressive
 Aoto Correlation: a corelation of a variable with itself at different time periods
 (Regression: Pearson Correlation of two variables)
 
@@ -32,7 +32,7 @@ observe dispersion
 ## MA - Moving Average
 predict with past few data points
 
-AT: previous y values as input
+AR: previous y values as input
 MA: previous error terms as input
 
 ## ARIMA
